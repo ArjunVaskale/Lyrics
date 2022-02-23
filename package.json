@@ -10,14 +10,20 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "eject": "^0.0.4",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "react": "17.0.2",
     "react-dom": "^17.0.2",
-    "react-native": "^0.66.4",
+    "react-native": "^0.67.2",
+    "react-native-eject": "^0.1.2",
+    "react-native-image-filter-kit": "^0.8.0",
+    "react-native-image-overlay": "^0.1.2",
     "react-native-lrc": "^1.0.0-beta.1",
     "react-native-marquee": "^0.3.2",
     "react-native-paper": "^4.11.2",
+    "react-native-shape": "^1.1.2",
+    "react-native-shape-image-view": "^2.0.0",
     "react-native-slider": "^0.11.0"
   },
   "devDependencies": {
