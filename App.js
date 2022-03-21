@@ -6,8 +6,13 @@ import DiffScreens from './screens/DiffScreens';
 import MainScreen from './screens/contextText/MainScreen';
 import Hexagon from './screens/Hexagon';
 import HexagonProject from './screens/HexagonProject';
+import ScrollViewLyrics from './screens/ScrollViewLyrics';
+import Carousel from './screens/Carousel';
+import BeeAnimated from './screens/BeeAnimated'
+
+
 const App = () => {
-  return <HexagonProject />;
+  return <BeeAnimated />;
 };
 
 export default App;

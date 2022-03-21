@@ -73,7 +73,7 @@ export default class HexagonProject extends React.Component {
     );
 
     var HexagonGroup = [];
-    var count = 19;
+    var count = 16;
     var round = 0;
 
     let i = 0;
@@ -100,11 +100,12 @@ export default class HexagonProject extends React.Component {
                 <HexagonShape />
               </View>
             ) : null}
-            {i + 3 < count && round % 2 != 0 ? (
+            {i + 3 < count ? (
               <View style={{marginLeft: -35}}>
                 <HexagonShape />
               </View>
             ) : null}
+           
           </View>
         </View>,
       );
@@ -113,14 +114,17 @@ export default class HexagonProject extends React.Component {
       if (round % 2 == 0) {
         i = i + 4;
       } else {
-        i = i + 3;
+        i = i + 4;
       }
     }
 
     return (
-      <SafeAreaView>
-        <ScrollView>
-          <View style={{flexDirection: 'row', flexWrap: 'wrap', marginTop: 50}}>
+      <SafeAreaView style={{flex : 1}}>
+        <View style ={{justifyContent : 'center' , alignItems : 'center' , flex : .20}}>
+          <Text style={{fontSize : 40 , fontWeight : 'bold'}}>POETRY</Text>
+        </View>
+        <ScrollView style ={{flex : .80}}>
+          <View style={{transform: [{rotate: '270deg'}], flexWrap: 'wrap' , marginTop : '24%' , marginLeft : '10%'}}>
             {HexagonGroup}
           </View>
           <View style={{marginBottom: 40}}></View>
