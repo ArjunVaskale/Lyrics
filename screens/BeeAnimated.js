@@ -21,7 +21,7 @@ class HelloWorldApp extends React.Component {
         // }).start()
 
         Animated.timing(this.state.scaleX, {
-          toValue : 3 ,
+          toValue : 2 ,
           duration : 4000 ,
           useNativeDriver : false,
           easing: Easing.linear,
@@ -67,7 +67,7 @@ class HelloWorldApp extends React.Component {
        <Button  title="smaller" onPress={smaller}/>
       </View>
 
-     <View style={{ flex : 1}}>
+     <View style={{ flex : 1 }}>
      <Animated.Image
         style={{height : this.state.imageHeight  , width : this.state.imageHeight ,
           
@@ -79,7 +79,7 @@ class HelloWorldApp extends React.Component {
         
         
         }}
-        source = {{ uri : "https://i.pinimg.com/originals/02/ce/79/02ce7945c01a4d62f78e480ca9c51f00.gif"}}/>
+        source = { require('../assests/bee_gif.gif')}/>
      
      </View>
     </View>
