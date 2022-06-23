@@ -1,0 +1,45 @@
+{
+  "name": "testingPurpose",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eject": "^0.0.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.67.2",
+    "react-native-autoscroll-flatlist": "^1.11.1",
+    "react-native-eject": "^0.1.2",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-image-filter-kit": "^0.8.0",
+    "react-native-image-overlay": "^0.1.2",
+    "react-native-lrc": "^1.0.0-beta.1",
+    "react-native-marquee": "^0.3.2",
+    "react-native-paper": "^4.11.2",
+    "react-native-shape": "^1.1.2",
+    "react-native-slider": "^0.11.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-sound-player": "^0.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/runtime": "^7.16.7",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@testing-library/jest-native": "^4.0.4",
+    "@testing-library/react-native": "^9.0.0",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.6.0",
+    "jest": "^27.4.7",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  }
+}
